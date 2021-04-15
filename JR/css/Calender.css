@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+#cldFrame{
+    position: relative;
+    width: 200px;
+	float:right;
+   margin-right:180px;
+}
+#cldBody{
+    margin: 10px;
+    position: absolute;
+    width: 250px;
+	
+}
+#top{
+    position: relative;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#topDate{
+    font-size: 25px;
+}
+.curDate{
+    color: red;
+    font-weight: bold;
+}
+table{
+    background-color: #FFF0F0;
+	border:2px solid #AFAFAF;
+	border-radius: 2%;
+}
+#week td{
+    font-size: 15px;
+}
+td{
+    height:22px;
+    width: 60px;
+    text-align: center;
+    font-family: 宋体;
+    font-size: 17px;
+}
+#left, #right{
+    position: absolute;
+    width: 40px;
+    height:40px;
+}
+#left{left: 0px;}
+#right{right: 0px;}
+#left:hover, #right:hover{
+    background-color: rgba(30, 30, 30, 0.2);
+}
